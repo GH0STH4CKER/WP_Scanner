@@ -31,9 +31,12 @@
 
 ### Functionalities of this script
 
- &nbsp;&nbsp;&nbsp;⏩ Enumerate WordPress Plugins </br>
- &nbsp;&nbsp;&nbsp;⏩ Enumerate WordPress Usernames </br>
- &nbsp;&nbsp;&nbsp;⏩ Find WordPress Admin Panel </br></br>
+<ol>
+  <li>Enumerate WordPress Plugins</li>
+  <li>Enumerate WordPress Usernames</li>
+  <li>Find WordPress Admin Panel</li>
+</ol>
+</br>
 
 <img src='https://img.shields.io/badge/Author-GH0STH4CKER-success?style=flat&logo=github' ></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FGH0STH4CKER%2FWP_Scanner&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
