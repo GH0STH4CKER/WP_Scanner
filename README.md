@@ -22,13 +22,18 @@
   <li>Run using IDLE or any code editor.</li>
 </ul>  
 
-### How to use : 
+### How to use the script : 
 
 <ul>
   <li>Input full website url when asked.</li>
   <li>No need to do anything else</li>
-  <li>Script will automatically do the things.</li>
 </ul>
+
+### Functionalities of this script
+
+» Enumerate WordPress Plugins
+» Enumerate WordPress Usernames
+» Find WordPress Admin Panel
 
 <img src='https://img.shields.io/badge/Author-GH0STH4CKER-success?style=flat&logo=github' ></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FGH0STH4CKER%2FWP_Scanner&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
