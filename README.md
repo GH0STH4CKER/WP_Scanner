@@ -4,8 +4,6 @@
 
 [![GitHub forks](https://img.shields.io/github/forks/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/network) [![GitHub stars](https://img.shields.io/github/stars/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/stargazers)
 <a href='https://www.python.org/downloads/release/python-3100'><img src='https://img.shields.io/badge/python%20%203.8%20%7C%203.9%20%7C%203.10-163052?style=flat&logo=python'></a>&nbsp;&nbsp;&nbsp;<a href='https://github.com/GH0STH4CKER'></br>
-<img src='https://img.shields.io/badge/Author-GH0STH4CKER-success?style=flat&logo=github' ></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FGH0STH4CKER%2FWP_Scanner&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 [![Github All Releases](https://img.shields.io/github/downloads/GH0STH4CKER/WP_Scanner/total.svg)]()
 <a href='https://github.com/GH0STH4CKER/WP_Scanner/commits/main'><img src="https://img.shields.io/github/last-commit/GH0STH4CKER/WP_Scanner"></a>
 ![GitHub repo size](https://img.shields.io/github/repo-size/GH0STH4CKER/WP_Scanner)
@@ -33,3 +31,6 @@ Download zip file from this <a href='https://github.com/GH0STH4CKER/WP_Scanner/a
   <li>No need to do anything else</li>
   <li>Script will automatically do the things.</li>
 </ul>
+
+<img src='https://img.shields.io/badge/Author-GH0STH4CKER-success?style=flat&logo=github' ></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FGH0STH4CKER%2FWP_Scanner&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
