@@ -9,3 +9,27 @@
 [![Github All Releases](https://img.shields.io/github/downloads/GH0STH4CKER/WP_Scanner/total.svg)]()
 <a href='https://github.com/GH0STH4CKER/WP_Scanner/commits/main'><img src="https://img.shields.io/github/last-commit/GH0STH4CKER/WP_Scanner"></a>
 ![GitHub repo size](https://img.shields.io/github/repo-size/GH0STH4CKER/WP_Scanner)
+
+### Installation & Running instructions [ Linux / Termux ]
+
+```git clone https://github.com/GH0STH4CKER/WP_Scanner.git```
+```cd WP_Scanner```
+```python WP_Scanner.py```
+
+### Installation & Running instructions [ Windows (without Git) ] 
+
+<ul>
+  <li>Download zip file from this <a href='https://github.com/GH0STH4CKER/WP_Scanner/archive/refs/heads/main.zip'>link</a>'</li>
+  <li>Unzip with winrar</li>
+  <li>Run using IDLE or any code editor.</li>
+</ul>  
+
+Download zip file from this <a href='https://github.com/GH0STH4CKER/WP_Scanner/archive/refs/heads/main.zip'>link</a>'
+
+### How to use : 
+
+<ul>
+  <li>Input full website url when asked.</li>
+  <li>No need to do anything else</li>
+  <li>Script will automatically do the things.</li>
+</ul>
