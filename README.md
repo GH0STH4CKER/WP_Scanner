@@ -12,9 +12,9 @@
 
 ### Installation & Running instructions [ Linux / Termux ]
 
-```git clone https://github.com/GH0STH4CKER/WP_Scanner.git```
-```cd WP_Scanner```
-```python WP_Scanner.py```
+```git clone https://github.com/GH0STH4CKER/WP_Scanner.git```</br>
+```cd WP_Scanner```</br>
+```python WP_Scanner.py```</br>
 
 ### Installation & Running instructions [ Windows (without Git) ] 
 
