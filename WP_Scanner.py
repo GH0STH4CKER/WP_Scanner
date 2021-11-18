@@ -1,5 +1,6 @@
-﻿# Coded by GH0STH4CKER
+# Coded by GH0STH4CKER
 # Python 3.10
+# For Education Purposes Only
 
 import requests,json,re,time
 from random_useragent import RANDOM_USER_AGENT
