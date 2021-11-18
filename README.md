@@ -28,15 +28,15 @@
 
 <ul>
   <li>Input full website url when asked.</li>
-  <li>No need to do anything else</li>
+  <li>No need to do anything else.</li>
 </ul>
 
 ### Functionalities of this script
 
 <ol>
-  <li>Enumerate WordPress Plugins</li>
-  <li>Enumerate WordPress Usernames</li>
-  <li>Find WordPress Admin Panel</li>
+  <li>Enumerate WordPress Plugins.</li>
+  <li>Enumerate WordPress Usernames.</li>
+  <li>Find WordPress Admin Panel.</li>
 </ol>
 </br>
 
