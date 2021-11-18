@@ -8,7 +8,7 @@
 [![Github All Releases](https://img.shields.io/github/downloads/GH0STH4CKER/WP_Scanner/total.svg)]()
 <a href='https://github.com/GH0STH4CKER/WP_Scanner/commits/main'><img src="https://img.shields.io/github/last-commit/GH0STH4CKER/WP_Scanner"></a>
 ![GitHub repo size](https://img.shields.io/github/repo-size/GH0STH4CKER/WP_Scanner)
-[![GitHub forks](https://img.shields.io/github/forks/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/network) [![GitHub stars](https://img.shields.io/github/stars/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/GH0STH4CKER/WP_Scanner)] [![GitHub stars](https://img.shields.io/github/stars/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/stargazers)
 
 ### Installation & Running instructions [ Linux / Termux ]
 
