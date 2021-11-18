@@ -1,4 +1,4 @@
-## WordPress Website Scanner Tool 
+## WordPress Website Scanner Tool  
 
 ### ⚠️ THIS TOOL IS FOR EDUCATIONAL PURPOSES ONLY ⚠️
 
