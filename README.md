@@ -1,5 +1,7 @@
 ## WordPress Website Scanner Tool 
 
+### ⚠️ THIS TOOL IS FOR EDUCATIONAL PURPOSES ONLY ⚠️
+
 <img src='https://user-images.githubusercontent.com/62290930/141680361-5e13b312-0267-4c24-83fd-7e77d10181f0.png' width='850px'>
 
 <a href='https://www.python.org/downloads/release/python-3100'><img src='https://img.shields.io/badge/python%20%203.8%20%7C%203.9%20%7C%203.10-163052?style=flat&logo=python'></a>&nbsp;&nbsp;&nbsp;<a href='https://github.com/GH0STH4CKER'></br>
