@@ -15,6 +15,7 @@
 
 ```git clone https://github.com/GH0STH4CKER/WP_Scanner.git```</br>
 ```cd WP_Scanner```</br>
+```pip install -r requirements.txt```</br>
 ```python WP_Scanner.py```</br>
 
 ### Installation & Running instructions [ Windows (without Git) ] 
@@ -22,7 +23,9 @@
 <ul>
   <li>Download zip file from this link 👉<a href='https://github.com/GH0STH4CKER/WP_Scanner/archive/refs/heads/main.zip'>Here</a></li>
   <li>Unzip with winrar.</li>
-  <li>Run using IDLE or any code editor.</li>
+  <li>Open cmd in the project direcory,</li> 
+  <li>type 'pip install -r requirements.txt ' then press enter.</li>
+  <li>Run '.py' file using IDLE or any code editor.</li>
 </ul>  
 
 ### How to use the script : 
