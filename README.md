@@ -20,7 +20,7 @@
 ### Installation & Running instructions [ Windows (without Git) ] 
 
 <ul>
-  <li>Download zip file from this link 👉<a href='https://github.com/GH0STH4CKER/WP_Scanner/archive/refs/heads/main.zip'>Here</a></li>.
+  <li>Download zip file from this link 👉<a href='https://github.com/GH0STH4CKER/WP_Scanner/archive/refs/heads/main.zip'>Here</a></li>
   <li>Unzip with winrar.</li>
   <li>Run using IDLE or any code editor.</li>
 </ul>  
