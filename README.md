@@ -2,7 +2,7 @@
 
 ## ⚠️ Disclaimer 
 ```
-The author of this github are not responsible for misuse or for any damage that you may cause!
+The author of this github repo is not responsible for misuse or for any damage that you may cause!
 You agree that you use this software at your own risk.
 ```
 
