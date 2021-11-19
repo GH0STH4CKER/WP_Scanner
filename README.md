@@ -37,7 +37,7 @@ python WP_Scanner.py
 
 <ul>
   <li>Input full website url when asked.</li>
-  <li>No need to do anything else.</li>
+  <li>Example : https://maroonflowerprime.site</li>
 </ul>
 
 ### Functionalities of this script
