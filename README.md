@@ -17,11 +17,12 @@ You agree that you use this software at your own risk.
 [![GitHub stars](https://img.shields.io/github/stars/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/stargazers)
 
 ### Installation & Running instructions [ Linux / Termux ]
-
-```git clone https://github.com/GH0STH4CKER/WP_Scanner.git```</br>
-```cd WP_Scanner```</br>
-```pip install -r requirements.txt```</br>
-```python WP_Scanner.py```</br>
+```
+git clone https://github.com/GH0STH4CKER/WP_Scanner.git</br>
+cd WP_Scanner</br>
+pip install -r requirements.txt</br>
+python WP_Scanner.py</br>
+```
 
 ### Installation & Running instructions [ Windows (without Git) ] 
 
