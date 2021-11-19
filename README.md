@@ -13,7 +13,9 @@ You agree that you use this software at your own risk.
 [![Github All Releases](https://img.shields.io/github/downloads/GH0STH4CKER/WP_Scanner/total.svg)]()
 <a href='https://github.com/GH0STH4CKER/WP_Scanner/commits/main'><img src="https://img.shields.io/github/last-commit/GH0STH4CKER/WP_Scanner"></a></br>
 ![GitHub repo size](https://img.shields.io/github/repo-size/GH0STH4CKER/WP_Scanner)</br>
-<a href="https://github.com/MShawon/github-clone-count-badge"><img alt="GitHub Clones" src="https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://github.com/GH0STH4CKER/WP_Scanner/blob/main/clone.json?raw=True&logo=github">
+
+[![GitHub Clones](https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=<url>?raw=True&logo=github)](https://github.com/MShawon/github-clone-count-badge)
+
 [![GitHub forks](https://img.shields.io/github/forks/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/network)
 [![GitHub stars](https://img.shields.io/github/stars/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/stargazers)
 
