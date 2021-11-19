@@ -36,8 +36,7 @@ python WP_Scanner.py
 ### How to use the script : 
 
 <ul>
-  <li>Input full website url when asked.</li>
-  <li>Example : ***https://maroonflowerprime.site***</li>
+  <li>Input full website url(with https://) when asked.</li>
 </ul>
 
 ### Functionalities of this script
