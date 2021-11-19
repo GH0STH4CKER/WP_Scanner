@@ -6,7 +6,7 @@
 
 <a href='https://www.python.org/downloads/release/python-3100'><img src='https://img.shields.io/badge/python%20%203.8%20%7C%203.9%20%7C%203.10-163052?style=flat&logo=python'></a>&nbsp;&nbsp;&nbsp;<a href='https://github.com/GH0STH4CKER'></br>
 [![Github All Releases](https://img.shields.io/github/downloads/GH0STH4CKER/WP_Scanner/total.svg)]()
-<a href='https://github.com/GH0STH4CKER/WP_Scanner/commits/main'><img src="https://img.shields.io/github/last-commit/GH0STH4CKER/WP_Scanner"></a>
+<a href='https://github.com/GH0STH4CKER/WP_Scanner/commits/main'><img src="https://img.shields.io/github/last-commit/GH0STH4CKER/WP_Scanner"></a></br>
 ![GitHub repo size](https://img.shields.io/github/repo-size/GH0STH4CKER/WP_Scanner)</br>
 [![GitHub forks](https://img.shields.io/github/forks/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/network)
 [![GitHub stars](https://img.shields.io/github/stars/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/stargazers)
