@@ -13,9 +13,6 @@ You agree that you use this software at your own risk.
 [![Github All Releases](https://img.shields.io/github/downloads/GH0STH4CKER/WP_Scanner/total.svg)]()
 <a href='https://github.com/GH0STH4CKER/WP_Scanner/commits/main'><img src="https://img.shields.io/github/last-commit/GH0STH4CKER/WP_Scanner"></a></br>
 ![GitHub repo size](https://img.shields.io/github/repo-size/GH0STH4CKER/WP_Scanner)</br>
-
-[![GitHub Clones](https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://github.com/GH0STH4CKER/WP_Scanner/blob/main/clone.json?raw=True&logo=github)](https://github.com/MShawon/github-clone-count-badge)
-
 [![GitHub forks](https://img.shields.io/github/forks/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/network)
 [![GitHub stars](https://img.shields.io/github/stars/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/stargazers)
 
@@ -39,7 +36,8 @@ python WP_Scanner.py
 ### How to use the script : 
 
 <ul>
-  <li>Input full website url(with https://) when asked.</li>
+  <li>Input full website url when asked.</li>
+  <li>Example : ***https://maroonflowerprime.site***</li>
 </ul>
 
 ### Functionalities of this script
