@@ -43,7 +43,7 @@
   <li>Find WordPress Admin Panel.</li>
 </ol>
 
-ℹ️<i> If these details are not found by this tool, reason could be > website is protected by WAF(Web Application Firewall)</i>
+ℹ️<i> If these details are not found by this tool, reason could be > website is protected by WAF (Web Application Firewall)</i>
 
 
 <img src='https://img.shields.io/badge/Author-GH0STH4CKER-success?style=flat&logo=github' ></a>
