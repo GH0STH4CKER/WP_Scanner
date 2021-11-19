@@ -45,6 +45,6 @@
 </br>
 
 ℹ️<font color='0000ff'> If these details are not found by this tool, reason could be > website is protected by WAF(Web Application Firewall)</font>
-
+<p style="color:red">This is a paragraph.</p>
 <img src='https://img.shields.io/badge/Author-GH0STH4CKER-success?style=flat&logo=github' ></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FGH0STH4CKER%2FWP_Scanner&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
