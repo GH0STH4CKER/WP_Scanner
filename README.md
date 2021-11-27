@@ -7,7 +7,7 @@ You agree that you use this software at your own risk.
 ```
 
 
-<img src='https://usesr-images.githubusercontent.com/62290930/141680361-5e13b312-0267-4c24-83fd-7e77d10181f0.png' onerror='<h1>error</h1>' width='720px'>
+<img src='https://user-images.githubusercontent.com/62290930/141680361-5e13b312-0267-4c24-83fd-7e77d10181f0.png' width='720px'>
 
 <a href='https://www.python.org/downloads/release/python-3100'><img src='https://img.shields.io/badge/python%20%203.8%20%7C%203.9%20%7C%203.10-163052?style=flat&logo=python'></a>&nbsp;&nbsp;&nbsp;<a href='https://github.com/GH0STH4CKER'></br>
 [![Github All Releases](https://img.shields.io/github/downloads/GH0STH4CKER/WP_Scanner/total.svg)]()
