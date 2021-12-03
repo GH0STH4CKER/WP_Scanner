@@ -16,6 +16,8 @@ You agree that you use this software at your own risk.
 [![GitHub forks](https://img.shields.io/github/forks/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/network)
 [![GitHub stars](https://img.shields.io/github/stars/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/stargazers)
 
+### Works on any os that can run python
+
 ### Installation & Running instructions [ Linux / Termux ]
 ```
 git clone https://github.com/GH0STH4CKER/WP_Scanner.git
@@ -51,6 +53,12 @@ python WP_Scanner.py
 
 ℹ️<i> If these details are not found by this tool, reason could be > website is protected by WAF (Web Application Firewall)</i>
 
+Subscribe :</br> <a href='www.youtube.com/channel/UCCKp8UXlGm8frgpY9heHSAg/?sub_confirmation=1'><img src='https://img.shields.io/badge/YouTube%20Channel-FF0000?style=for-the-badge&logo=youtube&logoColor=white'></a>
+
+Contact Me :</br>
+<a href='http://t.me/Dimuth92'><img src='https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white'></a>
+<a href='http://m.me/dimuth92'><img src='https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white'></a>
+<a href='mailto:dimuthsakya@protonmail.com'><img src='https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white'></a>
 
 <img src='https://img.shields.io/badge/Author-GH0STH4CKER-success?style=flat&logo=github' ></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FGH0STH4CKER%2FWP_Scanner&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
