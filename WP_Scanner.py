@@ -1,5 +1,5 @@
 # Coded by GH0STH4CKER
-# Python 3.10
+# Python 3.10.0
 # For Education Purposes Only
 
 import requests,json,re,time
