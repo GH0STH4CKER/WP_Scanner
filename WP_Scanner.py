@@ -1,3 +1,11 @@
+"""
+* Copyright (C) - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ * Written by Dimuth De Zoysa <dimuthsakya@protonmail.com>, September 2022
+ *
+ """
+
 # Coded by GH0STH4CKER
 # Python 3.10.0
 # For Education Purposes Only
