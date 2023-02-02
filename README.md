@@ -23,9 +23,36 @@ You agree that you use this software at your own risk.
 ### Installation & Running instructions [ Linux / Termux ]
 ```
 git clone https://github.com/GH0STH4CKER/WP_Scanner.git
+```
+```
 cd WP_Scanner
-pip install -r requirements.txt
-python WP_Scanner.py
+```
+```
+python3 -m pip install -r requirements.txt
+```
+```
+python3 WP_Scanner.py -h
+```
+
+### Tool Usage
+```
+ █ █ █ █▀█   █▀ █▀▀ ▄▀█ █▄ █ █▄ █ █▀▀ █▀█
+ ▀▄▀▄▀ █▀▀   ▄█ █▄▄ █▀█ █ ▀█ █ ▀█ ██▄ █▀▄ 
+-------------------------------------------
+   [+] Coded by GH0STH4CKER   [+] v 1.0 
+-------------------------------------------
+
+usage: WP_Scanner.py [-h] [-u URL]
+
+WP-Scanner ~ WordPress Website Scanner Tool
+
+optional arguments:
+  -h, --help         show this help message and exit
+  -u URL, --url URL  Website Url with https://
+```
+### Sample Usage of the Tool
+```
+python3 WP_Scanner.py -u https://www.website.com
 ```
 
 ### Installation & Running instructions [ Windows (without Git) ] 
