@@ -12,6 +12,7 @@
 
 import requests,json,re,time
 from random_useragent import RANDOM_USER_AGENT
+
 from bs4 import BeautifulSoup
 from colorama import Fore,init
 init()
@@ -72,9 +73,9 @@ def adminpanel_finder(org_url) :
 
 banner = """
  █ █ █ █▀█   █▀ █▀▀ ▄▀█ █▄ █ █▄ █ █▀▀ █▀█
- ▀▄▀▄▀ █▀▀   ▄█ █▄▄ █▀█ █ ▀█ █ ▀█ ██▄ █▀▄ """
+ ▀▄▀▄▀ █▀▀   ▄█ █▄▄ █▀█ █ ▀█ █ ▀█ ██▄ █▀▄"""
 dashline = "-------------------------------------------"
-author = "  [+] Coded by GH0STH4CKER   [+] v 1.0 "
+author = "  [+] Coded by GH0STH4CKER   [+] v 3.0 "
 
 print(Lgreen+banner)
 print(Lgreen+dashline)
@@ -87,6 +88,7 @@ url = input('')
 org_url = url
 roboturl = url+'/robots.txt'
 feedurl = url+'/feed'
+rssurl = url+'/rss'
 url = url+'/wp-json'
 
 headers = {"user-agent":RANDOM_USER_AGENT}
@@ -96,16 +98,20 @@ try:
 except Exception as e:
     print(Lred+'\nWebsite status : Error !')
 else :
-    print(Dgreen+'\nWebsite status : ',Lgreen+'Up')
 
     r = requests.get(url,headers=headers)
     rcode = r.status_code
 
     if rcode == 200 :
 
-        robotres = requests.get(roboturl,headers=headers)
+        print(Dgreen+'\nWebsite status : ',Lgreen+'Up')
 
-        if 'wp-admin' in robotres.text :
+        robotres = requests.get(roboturl,headers=headers)
+        feedTXT = requests.get(feedurl,headers=headers).text
+        rssTXT = requests.get(rssurl,headers=headers).text
+         
+
+        if 'wp-admin' in robotres.text or 'wordpress.org' in feedTXT or 'wordpress.org' in rssTXT :
             print(Dgreen+'\n[+] WordPress Detection : ',Lgreen+'Yes')
 
             feedres = requests.get(feedurl,headers=headers)
@@ -146,16 +152,16 @@ else :
                 elem = (i[:i.find('/')])
                 print(Lgreen+' [*] ',elem) 
                 time.sleep(0.2)
-                              
+
             time.sleep(1)
             adminpanel_finder(org_url)
             time.sleep(1)
             user_finder(org_url)
 
-        else :
-            print(Lyellw+'\n[-] WordPress Detection : No')
+        else: 
+            print(Dgreen+'\n[+] WordPress Detection : ',Lred+'No')
     else :
-        print(Lyellw+'\n[-] WordPress Detection : No')
+        print(Dgreen+'\nWebsite status : ',Lred+'Down'+r.reason)
 
 print(Lcyan+'')
 input('[ Thank you for using my tool ]')
