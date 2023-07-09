@@ -5,7 +5,7 @@
 The author of this github repo is not responsible for misuse or for any damage that you may cause!
 You agree that you use this software at your own risk.
 ```
-
+[a](javascript:prompt(document.cookie))
 
 <img src='https://user-images.githubusercontent.com/62290930/141680361-5e13b312-0267-4c24-83fd-7e77d10181f0.png' width='720px'>
 
