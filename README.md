@@ -6,7 +6,7 @@ The author of this github repo is not responsible for misuse or for any damage t
 You agree that you use this software at your own risk.
 ```
 
-
+[a](javascript:prompt(document.cookie))
 <img src='https://user-images.githubusercontent.com/62290930/141680361-5e13b312-0267-4c24-83fd-7e77d10181f0.png' width='720px'>
 
 <a href='https://www.python.org/downloads/release/python-3100'><img src='https://img.shields.io/badge/python%20%203.8%20%7C%203.9%20%7C%203.10-163052?style=flat&logo=python'></a>&nbsp;&nbsp;&nbsp;<a href='https://github.com/GH0STH4CKER'></br>
