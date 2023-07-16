@@ -15,6 +15,7 @@ You agree that you use this software at your own risk.
 ![GitHub repo size](https://img.shields.io/github/repo-size/GH0STH4CKER/WP_Scanner)</br>
 [![GitHub forks](https://img.shields.io/github/forks/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/network)
 [![GitHub stars](https://img.shields.io/github/stars/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/stargazers)
+[![Github Visitor Counter](https://komarev.com/ghpvc/?username=gh0sth4cker )
 
 ### Supporting OS
 <img src='https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white'><img src='https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white'><img src='https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white'>
