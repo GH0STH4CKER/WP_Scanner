@@ -6,6 +6,7 @@ The author of this github repo is not responsible for misuse or for any damage t
 You agree that you use this software at your own risk.
 ```
 
+### Try out the WP scanner online :<a href='https://gh0sth4cker.github.io/WP_Scanner'>Web Scanner (limited)</a>
 
 <img src='https://user-images.githubusercontent.com/62290930/141680361-5e13b312-0267-4c24-83fd-7e77d10181f0.png' width='720px'>
 
