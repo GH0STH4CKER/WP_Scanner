@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WordPress Scanner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            color: #333;
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        pre {
+            padding: 10px;
+            margin-top: 10px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            white-space: pre-wrap;
+        }
+
+        p.message {
+            color: #888;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>WordPress Scanner</h1>
+    <label for="website-url">Website URL (with https://):</label>
+    <input type="text" id="website-url" required>
+    <button onclick="scanWordPress()">Scan</button>
+
+    <pre id="output"></pre>
+
+    <p class="message">
+        Check the Python code to use the full version of the WordPress Scanner.
+    </p>
+
+    <script>
+        function scanWordPress() {
+            const websiteUrl = document.getElementById("website-url").value;
+            const outputElement = document.getElementById("output");
+            outputElement.innerHTML = "Scanning...";
+
+            const url = websiteUrl + "/wp-json";
+            const headers = { "user-agent": navigator.userAgent };
+
+            fetch(url, { headers })
+                .then((response) => response.json())
+                .then((data) => {
+                    const siteName = data.name;
+                    const siteDesc = data.description;
+                    const plugins = [...new Set(data.namespaces.map((plugin) => plugin.split("/")[0]))];
+
+                    let wpVersion = "Not Found!";
+                    const metatags = document.getElementsByTagName("meta");
+                    for (const tag of metatags) {
+                        console.log(tag)
+                        if (tag.getAttribute("name") === "generator" && tag.getAttribute("content").includes("WordPress")) {
+                            wpVersion = tag.getAttribute("content").replace("WordPress ", "");
+                            break;
+                        }
+                    }
+
+                    outputElement.innerHTML = `
+                        Website status: Up
+                        WordPress Detection: Yes
+                        WordPress version: ${wpVersion}
+                        Website name: ${siteName}
+                        Website description: ${siteDesc}
+                        Enumerating Plugins: ${plugins.join(", ")}
+                    `;
+
+                    adminPanelFinder(websiteUrl, outputElement);
+                    userFinder(websiteUrl, outputElement);
+                })
+                .catch((error) => {
+                    outputElement.innerHTML = "Website status: Error!";
+                });
+        }
+
+        function adminPanelFinder(websiteUrl, outputElement) {
+            const urlA = websiteUrl + "/wp-login.php?action=lostpassword&error=invalidkey";
+            const headers = { "user-agent": navigator.userAgent };
+
+            fetch(urlA, { headers })
+                .then((response) => response.text())
+                .then((data) => {
+                    const pagesoup = new DOMParser().parseFromString(data, "text/html");
+                    const ptag = pagesoup.querySelectorAll("p#nav a");
+
+                    if (ptag.length > 0) {
+                        for (const atag of ptag) {
+                            if (atag.textContent.includes("Log in")) {
+                                const adminUrl = atag.href;
+                                outputElement.innerHTML += `\nAdmin panel found - ${adminUrl}`;
+                                return;
+                            }
+                        }
+                    }
+
+                    outputElement.innerHTML += "\nAdmin panel not found";
+                })
+                .catch((error) => {});
+        }
+
+        function userFinder(websiteUrl, outputElement) {
+            const url = websiteUrl + "/wp-json/wp/v2/users";
+            const headers = { "user-agent": navigator.userAgent };
+
+            fetch(url, { headers })
+                .then((response) => response.json())
+                .then((data) => {
+                    outputElement.innerHTML += "\n\nEnumerating usernames:";
+                    data.forEach((info) => {
+                        outputElement.innerHTML += `\n[*] Username Found: ${info.slug}`;
+                    });
+                })
+                .catch((error) => {
+                    outputElement.innerHTML += "\n\nUsernames Not Found";
+                });
+        }
+    </script>
+</body>
+</html>
