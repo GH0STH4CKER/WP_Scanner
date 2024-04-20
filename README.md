@@ -57,7 +57,7 @@ python WP_Scanner.py
 
 ℹ️<i> If these details are not found by this tool, reason could be > website is protected by WAF (Web Application Firewall)</i>
 
-Subscribe :</br> <a href='www.youtube.com/channel/UCCKp8UXlGm8frgpY9heHSAg/?sub_confirmation=1'><img src='https://img.shields.io/badge/YouTube%20Channel-FF0000?style=for-the-badge&logo=youtube&logoColor=white'></a>
+Subscribe :</br> <a href='https://www.youtube.com/@GhostAcademy/?sub_confirmation=1'><img src='https://img.shields.io/badge/YouTube%20Channel-FF0000?style=for-the-badge&logo=youtube&logoColor=white'></a>
 
 Contact Me :</br>
 <a href='http://t.me/Dimuth92'><img src='https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white'></a>
