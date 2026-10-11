@@ -70,4 +70,7 @@ Contact Me :</br>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FGH0STH4CKER%2FWP_Scanner&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 </br>
 [![Stargazers repo roster for @GH0STH4CKER/WP_Scanner](https://reporoster.com/stars/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/stargazers)
+
+[![Stargazers repo roster for @GH0STH4CKER/WP_Scanner](https://reporoster.com/stars/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/stargazers)
+
 [![Forkers repo roster for @GH0STH4CKER/WP_Scanner](https://reporoster.com/forks/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/network/members)
