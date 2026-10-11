@@ -72,3 +72,4 @@ Contact Me :</br>
 
 
 [![Stargazers repo roster for @GH0STH4CKER/WP_Scanner](https://reporoster.com/stars/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/stargazers)
+[![Forkers repo roster for @GH0STH4CKER/WP_Scanner](https://reporoster.com/forks/GH0STH4CKER/WP_Scanner)](https://github.com/GH0STH4CKER/WP_Scanner/network/members)
